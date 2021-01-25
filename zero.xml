@@ -2,8 +2,8 @@
 <manifest>
 
   <!-- Apps -->
-    <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="LineageOS" />
-    <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="LineageOS" />
+    <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="LineageOS" revision="lineage-15.1" />
+    <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="LineageOS" revision="lineage-15.1" />
 
   <!-- Device Repos -->
     <project path="device/huawei/angler" name="android_device_huawei_angler" remote="Zero" revision="oreo" />
