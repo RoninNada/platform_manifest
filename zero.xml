@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Apps -->
-    <project path="packages/apps/Snap" name="https://github.com/LineageOS/android_packages_apps_Snap" remote="github" revison="lineage-15.1" />
+    <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github" revison="lineage-15.1" />
     <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" remote="github" revison="lineage-15.1" />
 
   <!-- Device Repos -->
