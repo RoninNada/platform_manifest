@@ -2,12 +2,12 @@
 <manifest>
 
   <!-- Apps -->
-    <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github" />
-    <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" remote="github" />
+    <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="LineageOS" />
+    <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="LineageOS" />
 
   <!-- Device Repos -->
-    <project path="device/huawei/angler" name="RoninNada/android_device_huawei_angler" remote="github" revision="oreo" />
-    <project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" remote="github" revision="lineage-15.1" />
+    <project path="device/huawei/angler" name="android_device_huawei_angler" remote="Zero" revision="oreo" />
+    <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="TheMuppets" revision="lineage-15.1" />
 
 </manifest>
 

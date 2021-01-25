@@ -12,6 +12,12 @@
            fetch="https://github.com/LineageOS/"
            revision="lineage-15.1" />
 
+  <remote  name="TheMuppets"
+           fetch="https://github.com/TheMuppets" />
+
+  <remote  name="Zero"
+           fetch="https://github.com/RoninNada/" />
+
   <default revision="refs/tags/android-8.1.0_r81"
            remote="aosp"
            sync-c="true"
