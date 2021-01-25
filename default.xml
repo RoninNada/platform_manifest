@@ -8,6 +8,10 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="LineageOS"
+           fetch="https://github.com/LineageOS/"
+           revision="lineage-15.1" />
+
   <default revision="refs/tags/android-8.1.0_r81"
            remote="aosp"
            sync-c="true"
