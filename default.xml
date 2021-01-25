@@ -5,12 +5,8 @@
            fetch="https://android-review.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <remote  name="github"
-           fetch="https://github.com/" />
-
   <remote  name="LineageOS"
-           fetch="https://github.com/LineageOS/"
-           revision="lineage-15.1" />
+           fetch="https://github.com/LineageOS/" />
 
   <remote  name="TheMuppets"
            fetch="https://github.com/TheMuppets" />
