@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the AOSiP trees, use a command like this:
 
 ```bash
-repo init -u git://github.com/AOSiP/platform_manifest.git -b oreo
+repo init -u git://github.com/AOSiP/platform_manifest.git -b oreo-mr1
 ```
 Then to sync up:
 ```bash
@@ -62,7 +62,7 @@ Ctrl O, then Ctrl X to save and exit
 ```bash
 git push ssh://USERNAME@review.aosiprom.com:29418/PROJECT HEAD:refs/for/BRANCH
 ```
-BRANCH - i.e oreo
+BRANCH - i.e oreo-mr1
 PROJECT - i.e AOSIP/platform_packages_apps_OwlsNest
 USERNAME - i.e Shreesha
 
