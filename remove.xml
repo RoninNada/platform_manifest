@@ -5,7 +5,9 @@
 
     <!-- Apps & Packages Repos -->
     <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
+    <remove-project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
     <remove-project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
+    <remove-project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
     <remove-project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
     <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
     <remove-project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
@@ -32,6 +34,7 @@
     <remove-project path="packages/apps/Car/SystemUpdater" name="platform/packages/apps/Car/SystemUpdater" groups="pdk-fs" />
     <remove-project path="packages/apps/Car/UserManagement" name="platform/packages/apps/Car/UserManagement" groups="pdk-fs" />
     <remove-project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" />
+    <remove-project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" />
 
     <!-- Device Repos -->
     <!--<remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />-->
