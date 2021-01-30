@@ -19,6 +19,9 @@
   <remote  name="zero"
            fetch="https://github.com/RoninNada" />
 
+  <remote  name="TheMuppets"
+           fetch="https://github.com/TheMuppets" />
+
   <default revision="refs/tags/android-8.1.0_r9"
            remote="aosp"
            sync-j="8"
