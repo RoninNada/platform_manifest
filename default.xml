@@ -8,6 +8,9 @@
   <remote  name="LineageOS"
            fetch="https://github.com/LineageOS/" />
 
+  <remote  name="AOSIP"
+           fetch="https://github.com/AOSIP" />
+
   <remote  name="TheMuppets"
            fetch="https://github.com/TheMuppets" />
 
