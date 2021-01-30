@@ -17,10 +17,12 @@
            revision="refs/heads/oreo-mr1" />
 
   <remote  name="zero"
-           fetch="https://github.com/RoninNada" />
+           fetch="https://github.com/RoninNada"
+           revision="refs/heads/oreo-mr1" />
 
   <remote  name="TheMuppets"
-           fetch="https://github.com/TheMuppets" />
+           fetch="https://github.com/TheMuppets" 
+           revison="refs/heads/lineage-15.1" />
 
   <default revision="refs/tags/android-8.1.0_r9"
            remote="aosp"

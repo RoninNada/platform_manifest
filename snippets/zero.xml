@@ -4,9 +4,9 @@
   <!-- AOSiP -->
 
     <!-- Vendor -->
-    <project path="vendor/aosip" name="platform_vendor_aosip" remote="zero" revison="oreo-mr1" />
+    <project path="vendor/aosip" name="platform_vendor_aosip" remote="zero" />
 
     <!-- Device -->
-    <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="TheMuppets" revison="lineage-15.1" />
+    <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="TheMuppets" />
 
 </manifest>
