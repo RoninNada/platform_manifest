@@ -3,6 +3,9 @@
 
   <!-- Repos To Remove -->
 
+    <!-- Frameworks -->
+    <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
+
     <!-- Apps & Packages Repos -->
     <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
     <remove-project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
@@ -15,6 +18,7 @@
     <remove-project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
     <remove-project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
     <remove-project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
+    <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
     <remove-project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
     <remove-project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="pdk-fs" />
     <remove-project path="packages/apps/TV" name="platform/packages/apps/TV" />
