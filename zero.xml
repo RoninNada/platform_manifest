@@ -4,6 +4,9 @@
   <!-- frameworks -->
     <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="oreo-mr1" />
 
+  <!-- Externel -->
+    <project path="external/DUtils" name="platform_external_DUtils" remote="aosip" revision="oreo-mr1" />
+
   <!-- Apps -->
     <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" remote="LineageOS" revision="lineage-15.1" />
     <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="aosip" revision="oreo-mr1" />
