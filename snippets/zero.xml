@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- AOSiP -->
+
+    <!-- Vendor -->
+    <project path="vendor/aosip" name="platform_vendor_aosip" remote="zero" revison="oreo-mr1" />
+
+</manifest>

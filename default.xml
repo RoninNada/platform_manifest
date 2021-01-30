@@ -16,6 +16,9 @@
            fetch="https://github.com/AOSiP-Devices" 
            revision="refs/heads/oreo-mr1" />
 
+  <remote  name="zero"
+           fetch="https://github.com/RoninNada" />
+
   <default revision="refs/tags/android-8.1.0_r9"
            remote="aosp"
            sync-j="8"
@@ -636,6 +639,7 @@
 
   <include name="snippets/remove.xml" />
   <include name="snippets/aosip.xml" />
+  <include name="snippets/zero.xml" />
   <include name="snippets/lineage.xml" />
 
 </manifest>
