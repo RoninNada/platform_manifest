@@ -7,6 +7,7 @@
     <project path="vendor/aosip" name="platform_vendor_aosip" remote="zero" revision="oreo-mr1" />
 
     <!-- Device -->
+    <project path="device/huawei/angler" name="android_device_huawei_angler" remote="zero" revision="oreo-mr1" />
     <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="TheMuppets" revision="lineage-15.1" />
 
 </manifest>
