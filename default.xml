@@ -24,7 +24,7 @@
            fetch="https://github.com/TheMuppets" 
            revison="refs/heads/lineage-15.1" />
 
-  <default revision="refs/tags/android-8.1.0_r9"
+  <default revision="refs/tags/android-8.1.0_r52"
            remote="aosp"
            sync-j="8"
            sync-c="true" />
