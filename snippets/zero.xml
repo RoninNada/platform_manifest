@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- AOSiP -->
+  <!-- Zero -->
+
+    <!-- System -->
+    <project path="system/security" name="ProtonAOSP/android_system_security" remote="github" revision="oc" />
 
     <!-- Vendor -->
     <project path="vendor/aosip" name="platform_vendor_aosip" remote="zero" revision="oreo-mr1" />
