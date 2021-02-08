@@ -9,6 +9,9 @@
     <!-- Vendor -->
     <project path="vendor/aosip" name="platform_vendor_aosip" remote="zero" revision="oreo-mr1" />
 
+    <!-- Packages -->
+    <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="zero" revision="oreo-mr1" />
+
     <!-- Device -->
     <project path="device/huawei/angler" name="AOSiP-Devices/device_huawei_angler" remote="github" revision="oreo-mr1" />
     <project path="kernel/huawei/angler" name="AOSiP-Devices/kernel_huawei_angler" remote="github" revision="oreo-mr1" />
