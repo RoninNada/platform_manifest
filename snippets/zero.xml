@@ -3,6 +3,9 @@
 
   <!-- Zero -->
 
+    <!-- Frameworks -->
+    <project path="frameworks/base" name="platform_frameworks_base" remote="zero" revision="oreo-mr1" />
+
     <!-- System -->
     <project path="system/security" name="ProtonAOSP/android_system_security" remote="github" revision="oc" />
 
