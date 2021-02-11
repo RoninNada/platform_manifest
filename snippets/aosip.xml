@@ -10,10 +10,6 @@
   <project path="bionic" name="platform_bionic" remote="aosip" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" />
   <project path="build/kati" name="platform_build_kati" remote="aosip" />
-  <project path="build/soong" name="platform_build_soong" remote="aosip" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
 
   <!-- Device -->
   <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
