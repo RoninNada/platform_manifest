@@ -17,9 +17,18 @@
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="bionic" name="platform_bionic" remote="zero" revision="oreo-mr1" />
 
     <!-- Frameworks -->
+    <project path="frameworks/av" name="platform_frameworks_av" remote="zero" revision="oreo-mr1" />
     <project path="frameworks/base" name="platform_frameworks_base" remote="zero" revision="oreo-mr1" />
+    <project path="frameworks/native" name="platform_frameworks_native" remote="zero" revision="oreo-mr1" />
+
+    <!-- Hardware -->
+    <project path="hardware/zero/interfaces" name="platform_hardware_aosip_interfaces" remote="zero" revision="oreo-mr1" >
+      <copyfile dest="hardware/aosip/Android.bp" src="Android.bp"/>
+    </project>
+    <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosip" />
 
     <!-- System -->
     <project path="system/security" name="ProtonAOSP/android_system_security" remote="github" revision="oc" />
