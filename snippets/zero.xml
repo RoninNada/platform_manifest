@@ -4,7 +4,7 @@
   <!-- Zero -->
 
     <!-- Build -->
-    <project path="build/make" name="platform_build" remote="zero" revision="oreo-mr1" >
+    <project path="build/make" name="platform_build" remote="zero" revision="oreo-zero" >
       <copyfile src="core/root.mk" dest="Makefile" />
       <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
       <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -13,34 +13,21 @@
       <linkfile src="target" dest="build/target" />
       <linkfile src="tools" dest="build/tools" />
     </project>
-    <project path="build/soong" name="platform_build_soong" remote="zero" revision="oreo-mr1" >
-      <linkfile src="root.bp" dest="Android.bp" />
-      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
-    <project path="bionic" name="platform_bionic" remote="zero" revision="oreo-mr1" />
 
     <!-- Frameworks -->
-    <project path="frameworks/av" name="platform_frameworks_av" remote="zero" revision="oreo-mr1" />
-    <project path="frameworks/base" name="platform_frameworks_base" remote="zero" revision="oreo-mr1" />
-    <project path="frameworks/native" name="platform_frameworks_native" remote="zero" revision="oreo-mr1" />
-
-    <!-- Hardware -->
-    <project path="hardware/zero/interfaces" name="platform_hardware_aosip_interfaces" remote="zero" revision="oreo-mr1" >
-      <copyfile dest="hardware/aosip/Android.bp" src="Android.bp"/>
-    </project>
-    <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosip" />
+    <project path="frameworks/base" name="platform_frameworks_base" remote="zero" revision="oreo-zero" />
 
     <!-- System -->
     <project path="system/security" name="ProtonAOSP/android_system_security" remote="github" revision="oc" />
 
     <!-- Vendor -->
-    <project path="vendor/zero" name="platform_vendor_aosip" remote="zero" revision="oreo-mr1" />
+    <project path="vendor/aosip" name="platform_vendor_aosip" remote="zero" revision="oreo-zero" />
 
     <!-- Packages -->
-    <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="zero" revision="oreo-mr1" />
+    <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="zero" revision="oreo-zero" />
 
     <!-- Device -->
-    <project path="device/huawei/angler" name="android_device_huawei_angler" remote="zero" revision="oreo-mr1" />
+    <project path="device/huawei/angler" name="android_device_huawei_angler" remote="zero" revision="oreo-zero" />
     <project path="kernel/huawei/angler" name="AOSiP-Devices/kernel_huawei_angler" remote="github" revision="oreo-mr1" />
     <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="TheMuppets" revision="lineage-15.1" />
 
